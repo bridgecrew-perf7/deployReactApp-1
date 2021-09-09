@@ -1,0 +1,28 @@
+.contact-list{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    overflow-x: hidden;
+}
+.contact-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.contact-item button{
+    margin: 0;
+}
+
+.contact-container{
+    height: 400px;
+    max-height: 400px;
+    width: fit-content;
+    margin: 20px auto;
+    overflow-y: auto;
+}
